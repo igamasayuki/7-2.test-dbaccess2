@@ -1,4 +1,4 @@
-package entity;
+package com.example.entity;
 
 /**
  * メンバー情報を表すエンティティ.

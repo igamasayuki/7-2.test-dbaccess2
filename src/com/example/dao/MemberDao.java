@@ -1,11 +1,11 @@
-package dao;
+package com.example.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.List;
 
-import common.DBManager;
-import entity.Member;
+import com.example.common.DBManager;
+import com.example.entity.Member;
 
 /**
  * membersテーブルを操作するDao.
@@ -44,7 +44,7 @@ public class MemberDao {
 	 * @param id 検索したい主キーの値
 	 * @return　メンバー情報(検索されなかった場合はnullが返ります)
 	 */
-	public Member load(int id){
+	public Member findById(int id){
 		Connection con = DBManager.createConnection();
 		String sql = "※ここにSQL文を書く";
 		try {

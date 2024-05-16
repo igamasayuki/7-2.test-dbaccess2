@@ -1,6 +1,6 @@
-package exam;
+package com.example.exam;
 
-import dao.MemberDao;
+import com.example.dao.MemberDao;
 
 /**
  * update()メソッド、動作確認用の実行クラスです.
